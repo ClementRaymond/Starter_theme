@@ -1,0 +1,41 @@
+{
+    "name": "firstPixel",
+    "version": "3.1.0",
+    "description": "A wordpress starter theme from 36 Pixels",
+    "main": "gulpfile.js",
+    "scripts": {
+        "start": "gulp",
+        "setup": "sh ./firstPixelInstall.sh",
+	"post-setup": "rm -rf ../starter",
+        "run": "gulp run"
+    },
+    "author": "36 Pixels",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git://bitbucket.org/36pixels/"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-preset-env": "^1.7.0",
+        "babelify": "^8.0.0",
+        "browserify": "^16.2.2",
+        "gulp": "*",
+        "gulp-autoprefixer": "*",
+        "gulp-babel": "^7.0.1",
+        "gulp-browserify": "*",
+        "gulp-clean-css": "*",
+        "gulp-concat": "*",
+        "gulp-imagemin": "*",
+        "gulp-notify": "^3.0.0",
+        "gulp-plumber": "*",
+        "gulp-rename": "*",
+        "gulp-require-tasks": "*",
+        "gulp-sass": "*",
+        "gulp-sourcemaps": "*",
+        "gulp-uglify": "^3.0.0",
+        "notify-send": "^0.1.2",
+        "vinyl-buffer": "^1.0.1",
+        "vinyl-source-stream": "^2.0.0"
+    }
+}

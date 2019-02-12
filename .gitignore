@@ -1,0 +1,29 @@
+# Tous les fichiers .log
+*.log
+
+# tous le contenu du repertoire app
+app/**
+
+# tous le contenu du repertoire builder
+# builder
+# builder/**
+
+
+/.htaccess
+/dploy.yaml
+/sitemap.xml
+/sitemap.xml.gz
+
+.DS_Store
+
+.env
+.secret
+
+/node_modules
+/node_modules/**
+
+/resources/files
+/resources/files/**
+
+/resources/t/firstpixel-theme/dist/styles/**
+/resources/t/firstpixel-theme/dist/scripts/**
