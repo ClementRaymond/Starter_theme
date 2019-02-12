@@ -1,4 +1,4 @@
-# firstPixel boilerplate
+# Starter theme rmd boilerplate
 -	Dependendices:
     -   WP-CLI
     -   composer
